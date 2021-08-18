@@ -1,0 +1,47 @@
+.result {
+  padding-top: 8px;
+  height: 60px;
+  background-color: #656565;
+  width: 100%;
+  color: #D4D4D2
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+  text-align: end;
+}
+
+.calculator-body {
+  max-width: 300px;
+  margin: auto;
+}
+
+button {
+  width: 25%;
+  height: 50px;
+  font-size: 1.5rem;
+  border: 1px solid lightgray
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.operatorButtons {
+  background-color: #FF9500;
+}
+
+.keyButtons {
+  flex: 1 0 25%;
+  color: #D4D4D2;
+  background-color: #7E7E7E
+}
+
+.keyZero {
+  flex: 2 0 50%;
+  background-color: #7E7E7E;
+  color: #D4D4D2;
+  /* padding-left: 40px */
+}
